@@ -1,0 +1,48 @@
+tarik@tarik-X550VX:~/Desktop/İşletim Ders/Proje-2/Prj2_152120161092$ g++ BurgerBuddies.cpp -o exec -pthread
+tarik@tarik-X550VX:~/Desktop/İşletim Ders/Proje-2/Prj2_152120161092$ ./exec 
+Enter working time in seconds: 18
+
+
+---------------------------------------------------------------------------------REMAINING WORKING TIME: 18
+Mehmet CHEF     : Burger is being prepared. Time it will take: 7 Second(s)
+Danilo CHEF     : Burger is being prepared. Time it will take: 10 Second(s)
+Somer CHEF      : Burger is being prepared. Time it will take: 10 Second(s)
+Hazer CHEF      : Burger is being prepared. Time it will take: 6 Second(s)
+CASHIER Tarik   : I can get an order here!
+CASHIER Alexis  : I can get an order here!
+CUSTOMER Acun   : I'd like to order! - One burger please. Time it will take: 6 Second(s)
+CUSTOMER Cem    : I'd like to order! - One burger please. Time it will take: 2 Second(s)
+---------------------------------------------------------------------------------REMAINING WORKING TIME: 13
+Hazer CHEF      : Burger is ready!
+Hazer CHEF      : Burger is being prepared. Time it will take: 8 Second(s)
+CASHIER Tarik   : Order is being prepared. Time it will take: 1 Second(s)
+Mehmet CHEF     : Burger is ready!
+Mehmet CHEF     : Burger is being prepared. Time it will take: 7 Second(s)
+CASHIER Alexis  : Order is being prepared. Time it will take: 2 Second(s)
+CASHIER Tarik   : Order is ready!
+CASHIER Tarik   : I can get an order here!
+CUSTOMER Serenay        : I'd like to order! - One burger please. Time it will take: 6 Second(s)
+CASHIER Alexis  : Order is ready!
+CASHIER Alexis  : I can get an order here!
+CUSTOMER Şeyma  : I'd like to order! - One burger please. Time it will take: 7 Second(s)
+Danilo CHEF     : Burger is ready!
+---------------------------------------------------------------------------------REMAINING WORKING TIME: 8
+Danilo CHEF     : Burger is being prepared. Time it will take: 8 Second(s)
+Somer CHEF      : Burger is ready!
+Somer CHEF      : Burger is being prepared. Time it will take: 7 Second(s)
+CASHIER Tarik   : Order is being prepared. Time it will take: 2 Second(s)
+Mehmet CHEF     : Burger is ready!
+Hazer CHEF      : Burger is ready!
+---------------------------------------------------------------------------------REMAINING WORKING TIME: 3
+CASHIER Tarik   : Order is ready!
+CASHIER Tarik   : I can get an order here!
+Mehmet CHEF     : Burger is being prepared. Time it will take: 5 Second(s)
+CASHIER Alexis  : Order is being prepared. Time it will take: 5 Second(s)
+Somer CHEF      : Burger is ready!
+Danilo CHEF     : Burger is ready!
+Mehmet CHEF     : Burger is ready!
+CASHIER Alexis  : Order is ready!
+CASHIER Alexis  : I can get an order here!
+Hazer CHEF      : Burger is being prepared. Time it will take: 9 Second(s)
+Hazer CHEF      : Burger is ready!
+Burgers on the rack: 4

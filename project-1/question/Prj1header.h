@@ -1,0 +1,14 @@
+#ifndef PRJ1HEADER_H_
+#define PRJ1HEADER_H_
+#include <stdio.h>
+#include <stdbool.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <signal.h>
+#include <pthread.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+#include <ctype.h>
+#include <sys/time.h>
+#endif /*PRJ1HEADER_H_*/

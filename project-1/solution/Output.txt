@@ -1,0 +1,25 @@
+gcc -I../include   -c -o MakeCopy.o MakeCopy.c
+gcc -o MakeCopy MakeCopy.o -I../include -lm
+gcc -I../include   -c -o ForkCopy.o ForkCopy.c
+gcc -o ForkCopy ForkCopy.o -I../include -lm
+gcc -I../include   -c -o PipeCopy.o PipeCopy.c
+gcc -o PipeCopy PipeCopy.o -I../include -lm
+gcc -I../include   -c -o CompareTime.o CompareTime.c
+gcc -o CompareTime CompareTime.o -I../include -lm
+gcc -I../include   -c -o MyShell.o MyShell.c
+gcc -o MyShell MyShell.o -I../include -lm
+gcc -I../include   -c -o MoreShell.o MoreShell.c
+gcc -o MoreShell MoreShell.o -I../include -lm
+gcc -I../include   -c -o DupShell.o DupShell.c
+gcc -o DupShell DupShell.o -I../include -lm
+>>MakeCopy PASSED the test: Files are same
+>>ForkCopy PASSED the test: Files are same
+>>PipeCopy PASSED the test: Files are same
+MakeCopy's Time Elapsed: 0.04ms
+ForkCopy's Time Elapsed: 0.09ms
+PipeCopy's Time Elapsed: 0.04ms
+>>MyShell PASSED the test: Files are same
+>>MoreShell PASSED the test: Files are same
+>>DupShell FAILED the test: Files are different
+>>Check _testDupShellFile.txt, Line Number : 1 Position : 1 
+10 points for appropriate Readme file
